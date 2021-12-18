@@ -7,9 +7,46 @@
     <title>Bulma ui</title>
 
     <link rel="stylesheet" href="./assets/css/bulma.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+
+    <style></style>
   </head>
   <body>
-    <h2>Welcome</h2>
-    <a href="">Link</a>
+    <header>
+      <nav class="navbar has-shadow">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html" class="navbar-item">
+              <img
+                src="https://raw.githubusercontent.com/iamshaunjp/bulma-ui-build/lesson-9/assets/logo.png"
+                alt="logo"
+                class="py-2 px-2"
+              />
+            </a>
+
+            <div
+              role="button"
+              class="navbar-burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="nav-links"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+              <a href="#" class="navbar-item">My Account</a>
+              <a href="#" class="navbar-item">Shipping cart(0)</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script src="./index.js"></script>
   </body>
 </html>
